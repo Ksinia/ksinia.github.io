@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Welcome to Ksenia's Universe!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/BubbleCloud3D.css">
+    <link rel="stylesheet" href="css/my.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Nunito|Nunito+Sans|Quicksand&display=swap"
+        rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <!-- Using Hammer.JS for touch event handling -->
+    <script src="bower_components/hammerjs/hammer.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="textheader">
+            <h1>Ksenia Gulyaeva</h1>
+        </div id="insign">
+        <div><a href="https://www.linkedin.com/in/ksenia-g/"><img id="in" src="images/Linkedin.svg" alt="Linkedin"></a>
+        </div>
+    </div>
+
+    <div id="popup" class="modal">
+        <p></p>
+    </div>
+    <div class="frame borderFrame">
+        <div id="me"><img src='images/mecolor.jpg'></div>
+        <div><img src='images/msu.jpg' data-text='
+            I have graduated from Lomonosov Moscow State University as a psychologist but never worked as one.
+            <br>I started learning Chinese language on the third year of study and moved to Beijing for six month on fifth year,
+            bringing back good memories and deep respect for Chinese culture and love for Chinese tea.
+            '></div>
+        <div><img src='images/dora.jpg' data-ref="<img src='images/dora2.jpg'>" data-text='
+            Cats or dogs?
+            <br>I definately prefer cats!
+            <br>This is my cat Dora. She is in Moscow with my mother.
+            '> </div>
+        <div><img src='images/planet.png' data-text='
+            I have created and published mobile game Planet Parade for both iOS and Android.
+            <br>The iOS version is temporarily unavailable but it will be fixed shortly.
+            <br><br><a href="https://itunes.apple.com/app/planet-parade/id1438973148?mt=8"><img src="images/appstore-lrg.svg" alt="Get it on AppStore"></a>
+            <a href="https://play.google.com/store/apps/details?id=net.ksinia.planetparade"><img src="images/google-play-badge-logo-svg-vector.svg" alt="Get it on Google Play"></a>
+            '> </div>
+        <div><img src='images/IMG_975011.jpg' data-text='
+            I just like oak trees.
+            '></div>
+        <div><img src='images/code.png' data-text='
+            I was interested in learning how to code since forever. I&#39;ve started in 2017 by finishing C# course over which
+            I created a game where you need to shoot crazy flying brown bears on the screen.
+            <br>I applied C# knowledge I&#39;ve got by creating a game for iOS and Android,
+            and then switched to learning Python.
+            <br>In the beginning of this year I left my non-IT job and found a Junior Software Developer position in Moscow.
+            <br>Now I am ready for the next step in my career and hope Codaisseur will help me with it.
+            <br>Please add me at <a href="https://www.linkedin.com/in/ksenia-g/">LinkedIn</a>
+            '></div>
+        <div><img src='images/me.jpg' data-text='
+            Hello! My name is Ksenia. 
+            <br>I am just a simple Russian girl and I dance with brown bears.
+            <br>Sometimes I enjoy making strange self-portraits like this:)
+            '> </div>
+        <div><img src='images/adam.jpg' data-ref="<img src='images/adam2.jpg'>" data-text='
+            In 2019 I&#39;ve decided to get married, change my career to become a Software Developer
+            and move from Moscow to the Netherlands.
+            <br>It all wouldn&#39;t be possible without support from my significant other.
+            '></div>
+        <div><img src='images/photo.jpg' data-text='
+            My main hobby is photography. I like both digital and analog photography and even know
+            how to print photos in dark room.
+            <br>You can see some of my photos (not the most recent ones) on <a href="https://flickr.com/photos/67806105@N03/">Flickr</a>
+            '> </div>
+        <div><img src='images/tea.jpg' data-ref="<img src='images/tea2.jpg'>" data-text='
+            In any incomprehensible situation drink tea!
+            <br>I like Chinese tea very much, including wulong tea, red tea, green tea, white tea, puer tea, yellow tea, black tea...
+            '> </div>
+        <div><img src='images/mountains.jpg' data-ref="<img src='images/china.jpg'>" data-text='
+            Partly thanks to my Chinese language knowledge most of my previous work was related to China and
+            I visited it multiple times.
+            <br>Over the years I studied, had business trips and spent my holidays in China and learned a great deal about it.
+            '></div>
+        <div><img src='images/insta.jpg' data-text='
+            I am a photographer and even worked photographing wisdom teeth removal and teeth implants installation,
+            and then photographing kids in trade center. These days are gone and now I&#39;m making photos just for fun.
+            <br><a href="https://www.instagram.com/ksinon">Check my mobile photos on Instagram</a> (no teeth or kids, I promise).
+            '></div>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script src="js/BubbleCloud3D.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".frame").to3DBubbleCloud();
+        });
+    </script>
+</body>
+
+</html>
